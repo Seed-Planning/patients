@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>シード・プランニング</title>
+<title>乳がん患者様インタビュー調査のご案内</title>
 <style>
 :root{
   --ink:#58413f;
@@ -64,6 +64,8 @@ button{touch-action:manipulation}
 .overview-label{display:block;color:var(--pink-deep);font-size:13px;font-weight:700;letter-spacing:.04em;margin-bottom:5px}
 .overview-value{display:block;color:var(--ink-strong);font-weight:700;line-height:1.65}
 .overview-value small{display:block;color:var(--mut);font-weight:400;font-size:13px;margin-top:3px}
+.overview-target-list{margin:0;padding-left:1.25em;display:grid;gap:5px}
+.overview-target-list li{padding-left:.1em}
 .flow-box{margin-top:18px;background:#fff9fa;border-left:5px solid var(--pink);padding:16px 18px;border-radius:4px}
 .flow-box strong{display:block;color:var(--ink-strong);margin-bottom:5px}
 .nonpromo-note{margin:14px 0 0;color:var(--ink);font-weight:400;text-align:left}
@@ -82,7 +84,7 @@ button{touch-action:manipulation}
 .cta-card p{margin:0 auto 22px;max-width:720px}
 .cta-meta{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-bottom:24px;color:var(--mut);font-size:14px}
 .cta-meta span{background:#fff;border:1px solid var(--rose-line);padding:7px 13px;border-radius:999px}
-.start-btn{display:inline-block;text-align:center;text-decoration:none;border:0;border-radius:12px;background:linear-gradient(180deg,#d88998,#bf6d7d);color:#fff;font-weight:700;font-size:18px;padding:17px 34px;min-width:290px;box-shadow:0 10px 22px rgba(169,87,104,.24);cursor:pointer;transition:.16s ease}
+.start-btn{display:inline-block;text-decoration:none;border:0;border-radius:12px;background:linear-gradient(180deg,#d88998,#bf6d7d);color:#fff;font-weight:700;font-size:18px;padding:17px 34px;min-width:290px;box-shadow:0 10px 22px rgba(169,87,104,.24);cursor:pointer;transition:.16s ease}
 .start-btn:hover{transform:translateY(-1px);box-shadow:0 14px 26px rgba(169,87,104,.28)}
 .start-btn:focus-visible{outline:4px solid #efd07d;outline-offset:3px}
 .cta-note{font-size:13.5px;color:var(--mut);margin-top:18px!important}
@@ -163,10 +165,7 @@ button{touch-action:manipulation}
 .end-card .qdesc p{margin:0 0 22px}
 .end-card .qdesc p:last-child{margin-bottom:0}
 .end-card .retry-note{margin:24px 0 0;padding-top:18px;border-top:1px solid #ead8dc;color:var(--mut);font-size:13.5px;line-height:1.75}
-.end-card .reason{background:#fff1f3;border:1px solid #efc1ca;color:var(--red);padding:12px;border-radius:10px;font-size:13.5px;text-align:left;margin-top:20px}
-.download-btn{margin-top:22px;background:#fff;border:1.5px solid var(--pink-deep);color:var(--pink-deep);padding:13px 18px;border-radius:10px;font-weight:700;cursor:pointer}
 
-/* ---------- TEST LOG ---------- */
 .testlog{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#2f2929;color:#f8eeee;border-top:4px solid var(--pink);box-shadow:0 -8px 22px rgba(0,0,0,.18)}
 .testlog-head{display:flex;align-items:center;gap:10px;padding:8px 14px;cursor:pointer}
 .testlog-head strong{font-family:var(--mono);font-size:12px;letter-spacing:.12em}
@@ -176,16 +175,16 @@ button{touch-action:manipulation}
 .testbox{background:#211d1d;border:1px solid #554b4b;border-radius:7px;padding:8px;white-space:pre-wrap;overflow-wrap:anywhere}
 .testlog.closed .testlog-body{display:none}
 
+
 @media(max-width:820px){
-  .hero-inner{grid-template-columns:1fr;text-align:left;gap:10px}.hero-art{max-width:380px;margin:0 auto}.intro-hero{padding-top:28px}.hero-copy h1{font-size:38px}.highlight-card{grid-template-columns:60px 1fr}.garden{display:none}.overview-card{padding:28px 17px 22px}.overview-card h2{font-size:22px}.overview-grid{grid-template-columns:1fr}.overview-item{min-height:0}.info-grid{grid-template-columns:1fr;gap:48px}.intro-main{margin-top:0}.stage-groups{grid-template-columns:1fr}.testlog-body{grid-template-columns:1fr}.testlog-body .testbox:nth-child(3){display:none}}
+  .hero-inner{grid-template-columns:1fr;text-align:left;gap:10px}.hero-art{max-width:380px;margin:0 auto}.intro-hero{padding-top:28px}.hero-copy h1{font-size:38px}.highlight-card{grid-template-columns:60px 1fr}.garden{display:none}.overview-card{padding:28px 17px 22px}.overview-card h2{font-size:22px}.overview-grid{grid-template-columns:1fr}.overview-item{min-height:0}.info-grid{grid-template-columns:1fr;gap:48px}.intro-main{margin-top:0}.stage-groups{grid-template-columns:1fr}}
 @media(max-width:620px){
   .wide-only{display:none}
-  body{font-size:15.5px}.intro-hero{min-height:0;padding:24px 18px 38px}.hero-copy{padding:14px 0}.eyebrow{margin-bottom:20px;padding:7px 18px}.hero-copy h1{font-size:31px;line-height:1.45}.hero-copy .lead{font-size:16px}.hero-art{max-width:300px}.intro-main{padding:0 14px 50px}.intro-card{padding:31px 18px 22px}.section-tab{left:14px;right:14px;min-width:0}.highlight-card{grid-template-columns:48px 1fr;gap:12px}.icon-circle{width:44px;height:44px;font-size:23px}.highlight-card strong{font-size:16px}.info-card{padding:34px 18px 20px}.info-list li{grid-template-columns:40px 1fr}.info-list .mini-icon{width:38px;height:38px}.cta-card{padding:32px 18px}.cta-card h2{font-size:23px}.start-btn{min-width:0;width:100%}.qcard{padding:24px 16px;border-radius:14px}.qcard h1{font-size:19px}.stage{margin-top:20px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.status-options,.subtype-options{grid-template-columns:1fr}.status-choice,.subtype-choice{min-height:44px;justify-content:flex-start;padding:11px 12px}.nav{flex-direction:column-reverse}.btn.secondary{width:100%}.testlog-body{max-height:145px}}
+  body{font-size:15.5px}.intro-hero{min-height:0;padding:24px 18px 38px}.hero-copy{padding:14px 0}.eyebrow{margin-bottom:20px;padding:7px 18px}.hero-copy h1{font-size:31px;line-height:1.45}.hero-copy .lead{font-size:16px}.hero-art{max-width:300px}.intro-main{padding:0 14px 50px}.intro-card{padding:31px 18px 22px}.section-tab{left:14px;right:14px;min-width:0}.highlight-card{grid-template-columns:48px 1fr;gap:12px}.icon-circle{width:44px;height:44px;font-size:23px}.highlight-card strong{font-size:16px}.info-card{padding:34px 18px 20px}.info-list li{grid-template-columns:40px 1fr}.info-list .mini-icon{width:38px;height:38px}.cta-card{padding:32px 18px}.cta-card h2{font-size:23px}.start-btn{display:inline-block;text-decoration:none;min-width:0;width:100%}.qcard{padding:24px 16px;border-radius:14px}.qcard h1{font-size:19px}.stage{margin-top:20px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.status-options,.subtype-options{grid-template-columns:1fr}.status-choice,.subtype-choice{min-height:44px;justify-content:flex-start;padding:11px 12px}.nav{flex-direction:column-reverse}.btn.secondary{width:100%}}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
-
 <section id="introView" class="intro-shell">
   <div class="intro-hero">
     <div class="hero-inner">
@@ -215,7 +214,7 @@ button{touch-action:manipulation}
       <h2>調査の概要</h2>
       <p class="overview-lead">インタビューへのご参加が決まった場合の概要です。</p>
       <div class="overview-grid">
-        <div class="overview-item"><span class="overview-label">対象</span><span class="overview-value">乳がんの治療を経験された方<small>簡単なアンケートで対象条件を確認します</small></span></div>
+        <div class="overview-item"><span class="overview-label">対象</span><div class="overview-value"><ul class="overview-target-list"><li>ホルモン受容体(HR)陽性／HER2陰性のステージ2～3乳がんと診断された方</li><li>アロマターゼ阻害薬での治療を経験された方</li></ul><small>簡単なアンケートで対象条件を確認します</small></div></div>
         <div class="overview-item"><span class="overview-label">実施方法</span><span class="overview-value">オンライン個別インタビュー<small>ご自宅などから参加できます<br>カメラはOFFで、お顔を映していただく必要はございません</small></span></div>
         <div class="overview-item"><span class="overview-label">所要時間</span><span class="overview-value">約60分</span></div>
         <div class="overview-item"><span class="overview-label">実施予定</span><span class="overview-value">2026年8月3日（月）～5日（水）<small>17:30以降の時間帯</small></span></div>
@@ -252,14 +251,12 @@ button{touch-action:manipulation}
       <h2>ご参加に興味をお持ちの方へ</h2>
       <p>まず、治療経験などについて数問の簡単なアンケートにご回答ください。ご回答内容を確認のうえ、本調査へのご参加をお願いする場合は、後日担当者よりご連絡いたします。</p>
       <div class="cta-meta"><span>回答時間の目安：約3〜5分</span><span>回答だけで参加が決まるものではありません</span></div>
-      <a id="startSurvey" class="start-btn" href="https://script.google.com/a/macros/seedplanning.co.jp/s/AKfycbyZtUGw0izU7UoR_AMxzzTpLlYNwLzvxOpo_xyiGvCyVwm4YHD0sdt_4CLsJvNAkJg5Iw/exec">興味があるので、アンケートに進む</a>
+      <a class="start-btn" href="https://script.google.com/macros/s/AKfycbyZtUGw0izU7UoR_AMxzzTpLlYNwLzvxOpo_xyiGvCyVwm4YHD0sdt_4CLsJvNAkJg5Iw/exec?t=seedplanning_top">興味があるので、アンケートに進む</a>
       <p class="cta-note">アンケートへの回答は任意です。途中で回答をやめることもできます。</p>
       <div class="contact-box"><strong>お問い合わせ先</strong><div>株式会社シード・プランニング　担当：辰己 遥</div><div>E-mail：<a href="mailto:medb3@seedplanning.co.jp">medb3@seedplanning.co.jp</a></div><div>会社情報：<a href="https://www.seedplanning.co.jp/" target="_blank" rel="noopener noreferrer">https://www.seedplanning.co.jp/</a></div></div>
     </section>
   </main>
   <footer class="intro-footer">あなたの声が、次の誰かの安心につながります。</footer>
 </section>
-
-
 </body>
 </html>
