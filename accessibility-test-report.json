@@ -1,0 +1,38 @@
+{
+  "index.html": {
+    "home": {
+      "size": "xlarge",
+      "contrast": true,
+      "overflow": 0,
+      "unlabeled": 0,
+      "h1count": 1,
+      "skipTarget": "main-content"
+    },
+    "story": {
+      "overflow": 0,
+      "h1count": 1,
+      "homeHidden": true,
+      "storyHidden": false,
+      "size": "xlarge",
+      "contrast": true
+    }
+  },
+  "english.html": {
+    "home": {
+      "size": "xlarge",
+      "contrast": true,
+      "overflow": 0,
+      "unlabeled": 0,
+      "h1count": 1,
+      "skipTarget": "main-content"
+    },
+    "story": {
+      "overflow": 0,
+      "h1count": 1,
+      "homeHidden": true,
+      "storyHidden": false,
+      "size": "xlarge",
+      "contrast": true
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "pages": {
+    "index.html-1440": {
+      "title": "SEED PATIENT VOICES｜患者さんの声から、医療を考える。",
+      "lang": "ja",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": "患者さんの声から、医療を考える。",
+      "languageLabel": "View this site in English",
+      "languageHref": "english.html#home",
+      "toolCount": 4
+    },
+    "english.html-1440": {
+      "title": "SEED PATIENT VOICES | Understanding Healthcare Through Patient Voices",
+      "lang": "en",
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "h1": "Understanding healthcare through patient voices.",
+      "languageLabel": "日本語版を表示",
+      "languageHref": "index.html#home",
+      "toolCount": 4
+    },
+    "index.html-320": {
+      "title": "SEED PATIENT VOICES｜患者さんの声から、医療を考える。",
+      "lang": "ja",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1": "患者さんの声から、医療を考える。",
+      "languageLabel": "View this site in English",
+      "languageHref": "english.html#home",
+      "toolCount": 4
+    },
+    "english.html-320": {
+      "title": "SEED PATIENT VOICES | Understanding Healthcare Through Patient Voices",
+      "lang": "en",
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "bodyScrollWidth": 320,
+      "h1": "Understanding healthcare through patient voices.",
+      "languageLabel": "日本語版を表示",
+      "languageHref": "index.html#home",
+      "toolCount": 4
+    }
+  },
+  "interactions": {
+    "jp_language_href_home": "english.html#home/library",
+    "en_language_href_home": "index.html#home/library",
+    "search_result": "Showing 1 story",
+    "filtered_result": "Showing 0 stories",
+    "en_language_href_story": "index.html#story/oc",
+    "en_language_href_chapter": "index.html#story/oc/chapter-2",
+    "text_size_after_click": "large",
+    "contrast_after_click": "true",
+    "story_overflow_320": 0,
+    "header_boxes_320": [
+      {
+        "left": 126,
+        "right": 170,
+        "width": 44,
+        "label": "Change text size. Current setting: Standard"
+      },
+      {
+        "left": 172,
+        "right": 216,
+        "width": 44,
+        "label": "Switch to high-contrast display"
+      },
+      {
+        "left": 218,
+        "right": 262,
+        "width": 44,
+        "label": "日本語版を表示"
+      },
+      {
+        "left": 264,
+        "right": 308,
+        "width": 44,
+        "label": "Open menu"
+      }
+    ],
+    "mobile_menu_escape": "passed"
+  }
+}

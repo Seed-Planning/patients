@@ -1,0 +1,21 @@
+SEED PATIENT VOICES - QA CHECKLIST
+Checked: 2026-09-02
+
+PASS  Japanese page opens as index.html
+PASS  English page opens as english.html
+PASS  Reciprocal language links point to files in the same directory
+PASS  Current home/story/chapter hash is retained in the language-switch URL
+PASS  Japanese OC/MG links retained
+PASS  English OC/MG links use the /en/ structure
+PASS  Search and entry-type filters work in English
+PASS  Mobile menu opens and closes with Escape
+PASS  No horizontal overflow at 320px in Japanese or English
+PASS  No horizontal overflow at 320px with Extra Large text and High Contrast enabled
+PASS  Header controls remain inside the viewport at 320px
+PASS  Text size and contrast controls work
+PASS  Skip link, page language, headings, labels, alt attributes, and keyboard focus structure checked
+PASS  No duplicate HTML IDs
+PASS  Inline JavaScript syntax checked with Node.js
+PASS  Desktop and mobile render screenshots reviewed
+
+Note: This is a concept mock aligned to WCAG 2.2 AA principles; it is not a formal accessibility conformance certification.
