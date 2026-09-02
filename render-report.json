@@ -1,0 +1,50 @@
+{
+  "preview-desktop.png": {
+    "title": "SEED PATIENT VOICES｜患者さんの声から、医療を考える。",
+    "clientWidth": 1425,
+    "scrollWidth": 1425,
+    "clientHeight": 1200,
+    "scrollHeight": 4010,
+    "hash": "#home",
+    "imageSize": [
+      1440,
+      1200
+    ]
+  },
+  "preview-mobile.png": {
+    "title": "SEED PATIENT VOICES｜患者さんの声から、医療を考える。",
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "clientHeight": 844,
+    "scrollHeight": 6195,
+    "hash": "#home",
+    "imageSize": [
+      390,
+      844
+    ]
+  },
+  "preview-oc-detail.png": {
+    "title": "卵巣がんと向き合う｜SEED PATIENT VOICES",
+    "clientWidth": 1425,
+    "scrollWidth": 1425,
+    "clientHeight": 1200,
+    "scrollHeight": 5570,
+    "hash": "#story/oc",
+    "imageSize": [
+      1440,
+      1200
+    ]
+  },
+  "preview-mg-mobile.png": {
+    "title": "「見えにくい症状」と向き合う日々｜SEED PATIENT VOICES",
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "clientHeight": 844,
+    "scrollHeight": 6935,
+    "hash": "#story/mg",
+    "imageSize": [
+      390,
+      844
+    ]
+  }
+}

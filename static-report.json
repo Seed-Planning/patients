@@ -1,0 +1,13 @@
+{
+  "doctype": true,
+  "lang": "ja",
+  "ids": 23,
+  "duplicate_ids": 0,
+  "buttons": 6,
+  "unlabeled_controls": 0,
+  "seed_content_links": 11,
+  "external_domains": [
+    "seed-planning.github.io"
+  ],
+  "issues": []
+}

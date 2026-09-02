@@ -1,0 +1,82 @@
+{
+  "initial": {
+    "cards": 2,
+    "width": 320,
+    "scrollWidth": 320,
+    "font": "16px"
+  },
+  "xlarge": {
+    "size": "xlarge",
+    "width": 320,
+    "scrollWidth": 320,
+    "font": "20px",
+    "bodyFont": "20px"
+  },
+  "search_oc": {
+    "cards": 1,
+    "summary": "1件を表示しています"
+  },
+  "filter_disease_with_oc_query": {
+    "cards": 0,
+    "empty": true
+  },
+  "contrast": {
+    "enabled": true,
+    "pressed": "true"
+  },
+  "menu_open": {
+    "hidden": false,
+    "expanded": "true"
+  },
+  "menu_escape": {
+    "hidden": true,
+    "expanded": "false"
+  },
+  "route_oc": {
+    "homeHidden": true,
+    "storyHidden": false,
+    "chapters": 4,
+    "title": "卵巣がんと向き合う｜SEED PATIENT VOICES",
+    "width": 320,
+    "scrollWidth": 320
+  },
+  "route_oc_xlarge": {
+    "size": "xlarge",
+    "font": "20px",
+    "width": 320,
+    "scrollWidth": 320
+  },
+  "route_chapter_2": {
+    "hash": "#story/oc/chapter-2",
+    "current": "02告知後の治療選択",
+    "scrollY": 3915
+  },
+  "touch_targets": {
+    "text-size-button": {
+      "w": 44,
+      "h": 44
+    },
+    "contrast-button": {
+      "w": 44,
+      "h": 44
+    },
+    "menu-button": {
+      "w": 44,
+      "h": 44
+    }
+  },
+  "desktop": {
+    "width": 1425,
+    "scrollWidth": 1425,
+    "navVisible": "flex",
+    "menuVisible": "none"
+  },
+  "accessibility_tree": {
+    "main": 1,
+    "navigation": 2,
+    "heading": 12,
+    "link": 14,
+    "button": 5,
+    "has_skip_link": true
+  }
+}
